@@ -2,7 +2,7 @@ const products = [
   {
     title: "Magnetite",
     category: 8,
-    price: 89.0,
+    price: 89.00,
     img: "./src/assets/img/1.jpg",
     band: "Scalene",
     year: 2017,

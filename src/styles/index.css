@@ -1,1 +1,157 @@
 /* Desenvolva sua estilização aqui ... */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 2.8rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 8.5rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+.buttonDarkMode {
+    border: none;
+    background-color: var(--color-white-fixed);
+    width: 2rem;
+    height: 2rem;
+}
+
+.containerListCat {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.listCategories {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.buttonsCat{
+    border: none;
+    background-color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    padding: 0.6rem 1.1rem 0.5rem 1rem;
+}
+
+.buttonsCat:hover{
+    background-color: var(--color-grey-1);
+    color: var(--color-white-fixed);
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    gap: 3rem;
+    margin-bottom: 4%;
+}
+
+.containerSetPrice{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.setPrice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rangeBar{
+    appearance: none;
+    height: 0.5rem;
+    border-radius: var(--radius-1);
+    background-color: var(--color-brand-1);
+}
+
+.rangeBar::-webkit-slider-thumb{
+    cursor: pointer;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: var(--color-white-fixed);
+    border: 6px solid var(--color-brand-1);
+}
+
+.renderCards{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 75%;
+}
+
+.listCards{
+    display: grid;
+    grid-template-columns: 50%;
+}
+
+.cards {
+    list-style: none;
+    border-radius: var(--radius-1);
+    background-color: var(--color-grey-8);
+    width: 95%;
+    margin-bottom: 10%;
+}
+
+.cards:nth-child(odd) {
+    grid-column: 1;
+}
+
+.cards:nth-child(2) {
+    grid-column: 2;
+    justify-self: end;
+}
+
+.cards:nth-child(4) {
+    grid-column: 2;
+    justify-self: end;
+}
+
+.contentCard{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.priceButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgList{
+    border-radius: var(--radius-1) var(--radius-1) 0 0;
+    width: 100%;
+}
+
+.buttonCard {
+    font-size: 1rem;
+    border: none;
+    border-radius: var(--radius-1);
+    padding: 8px 10px;
+}
+
+.name{
+    display: flex;
+    gap: 2rem;
+}

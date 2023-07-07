@@ -1,0 +1,27 @@
+body.dark-mode{
+    background-color: var(--color-disable-fixed);
+    color: var(--color-grey-3);
+}
+
+.cards.dark-mode{
+    background-color:  var(--color-actived-fixed);
+    color: var(--color-grey-4);
+}
+
+.buttonsCat.dark-mode{
+    background-color:  var(--color-actived-fixed);
+    color: var(--color-grey-4);
+}
+
+.buttonCard.dark-mode{
+    background-color:  var(--color-disable-fixed);
+    color: var(--color-grey-4);
+}
+
+.buttonDarkMode.dark-mode{
+    background-color:  var(--color-actived-fixed);
+}
+
+h1.dark-mode{
+    color: var(--color-grey-5);
+}
